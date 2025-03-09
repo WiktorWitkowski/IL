@@ -1,3 +1,4 @@
+```
 SELECT
     N,
     CASE
@@ -7,7 +8,7 @@ SELECT
     END AS type
 FROM
     tree;
-
+```
 
 Logika:
 1. Jesli wierzchołek N ma null w kolumnie przodków to oznacza, że nie ma przodka czyli jest rootem
